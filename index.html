@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Question-Project</title>
+</head>
+
+<body>
+    <section class="questions">
+        <div class="title">
+            <h2>general questions</h2>
+        </div>
+        <!--ques-->
+        <div class="section-center">
+            <!--single Ques-->
+            <article class="question">
+                <div class="question-title">
+                    <p>Do you accept all major credit cards?</p>
+                    <button type="button" onclick="toggleClick('test1')" class="question-btn">
+                        <span class="plus-icon show-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class="minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <!--question text-->
+                <div id="test1" class="question-text">
+                    <p>Abc ipsum dolor sit amet consectetur adipisicing elit. Esse nam neque libero enim, aliquid
+                        nihil quibusdam maxime necessitatibus vel, atque optio sit? Excepturi earum quaerat autem ad
+                        maiores porro dolor?</p>
+                </div>
+            </article>
+
+            <!--2nd question-->
+
+            <article class="question">
+                <div class="question-title">
+                    <p>Do you support local farmers?</p>
+                    <button type="button" onclick="toggleClick('test2')" class="question-btn">
+                        <span class="plus-icon show-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class="minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <!--question text-->
+                <div id="test2" class="question-text">
+                    <p>bcs ipsum dolor sit amet consectetur adipisicing elit. Esse nam neque libero enim, aliquid
+                        nihil quibusdam maxime necessitatibus vel, atque optio sit? Excepturi earum quaerat autem ad
+                        maiores porro dolor?</p>
+                </div>
+            </article>
+
+            <!--3rd ques-->
+
+            <article class="question">
+                <div class="question-title">
+                    <p>Do you use organic ingridents?</p>
+                    <button type="button" onclick="toggleClick('test3')" class="question-btn">
+                        <span class="plus-icon show-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class="minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <!--question text-->
+                <div  id="test3" class="question-text">
+                    <p>cam ipsum dolor sit amet consectetur adipisicing elit. Esse nam neque libero enim, aliquid
+                        nihil quibusdam maxime necessitatibus vel, atque optio sit? Excepturi earum quaerat autem ad
+                        maiores porro dolor?</p>
+                </div>
+            </article>
+        </div>
+
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
